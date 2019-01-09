@@ -29,7 +29,7 @@ data3_pos<-list.files("./negative/negative_QC",recursive=T,full=T)
 
 pos_xset<-xcmsSet(data2_pos, method='centWave',ppm=3, peakwidth=c(2,20),
               polarity="positive", snthresh=3, integrate=2, mzdiff=-1.0000)
-#change data2_pos to data3_pos for QC postive mode
+#change data2_pos to data3_pos for QC positive mode
 #change snthresh=10 for sn10 dataset
   #integrate=2, the descent is done on the real data, 
     #more accurate but prone to noise
@@ -48,7 +48,7 @@ pos_xsann<-annotateDiffreport(pos_xset3,sigma=3,perfwhm=0.5,
 
 neg_xset<-xcmsSet(data2_neg, method='centWave',ppm=3, peakwidth=c(2,20),
               polarity="negative", snthresh=3, integrate=2, mzdiff=-1.0000)
-#change data2_pos to data3_pos for QC postive mode
+#change data2_pos to data3_pos for QC negative mode
 #change snthresh=10 for sn10 dataset
 neg_xset<-group(neg_xset,method="density",bw=3,mzwid=0.015,minfrac=0.5)
 neg_xset1<-retcor(neg_xset,family="s",plottype="m",missing=1,smooth="linear")
