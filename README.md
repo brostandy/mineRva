@@ -11,18 +11,15 @@ only MS1 data to better direct analysts in further MS/MS analysis without overwh
 
 mineRva is a tool created in R-languange to extract metabolite ions with a particular experimental design for complex mixture analysis via LC-ESI-MS. This tool enables analysts to extract putative ions that belongs to the biological sample, thus directing analysts for targeted MS/MS experiment.
 
-## Download Instruction
-Download the minervaTools.R source code by cloning your own copy of the source repository with the commands:
+## Instructions
+1. Download the minervaTools.R source code by cloning your own copy of the source repository with the commands:
+   $> git clone https://github.com/brostandy/mineRva.git
+   $> cd mineRva
 
-$> git clone https://github.com/brostandy/mineRva.git
+2. Usage, in R console, type:
+   > source(minervaTools.R)
 
-$> cd mineRva
-
-Usage, in R console, type:
-
-$> source(minervaTools.R)
-
-## Requirements Credits
+## mineRva Requirement Credits
 mineRva tool consisted other R packages
 
 R Core Team (2018). R: A language and environment for statistical computing. R Foundation for
