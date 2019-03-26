@@ -13,24 +13,32 @@ mineRva is a tool created in R-languange to extract metabolite ions with a parti
 
 ## Download Instruction
 Download the minervaTools.R source code by cloning your own copy of the source repository with the commands:
+
 $> git clone https://github.com/brostandy/mineRva.git
+
 $> cd mineRva
 
 Usage, in R console, type:
+
 $> source(minervaTools.R)
 
 ## Requirements Credits
 mineRva tool consisted other R packages
+
 R Core Team (2018). R: A language and environment for statistical computing. R Foundation for
   Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+  
 Jerome Friedman, Trevor Hastie, Robert Tibshirani (2010). Regularization Paths for Generalized
   Linear Models via Coordinate Descent. Journal of Statistical Software, 33(1), 1-22. URL
   http://www.jstatsoft.org/v33/i01/.
+  
 Gregory R. Warnes, Ben Bolker, Lodewijk Bonebakker, Robert Gentleman, Wolfgang Huber Andy Liaw,
   Thomas Lumley, Martin Maechler, Arni Magnusson, Steffen Moeller, Marc Schwartz and Bill
   Venables (2016). gplots: Various R Programming Tools for Plotting Data. R package version
   3.0.1. https://CRAN.R-project.org/package=gplots
+  
 Erich Neuwirth (2014). RColorBrewer: ColorBrewer Palettes. R package version 1.1-2.
   https://CRAN.R-project.org/package=RColorBrewer
+  
 
 
