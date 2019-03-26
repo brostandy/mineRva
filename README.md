@@ -13,6 +13,7 @@ mineRva is a tool created in R-languange to extract metabolite ions with a parti
 
 ## Instructions
 1. Download the minervaTools.R source code by cloning your own copy of the source repository with the commands:
+
    $> git clone https://github.com/brostandy/mineRva.git
    $> cd mineRva
 
