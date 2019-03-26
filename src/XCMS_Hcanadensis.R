@@ -27,8 +27,9 @@ data3_pos<-list.files("./positive/positive_QC",recursive=T,full=T)
 data3_pos<-list.files("./negative/negative_QC",recursive=T,full=T) 
 
 
+
 pos_xset<-xcmsSet(data2_pos, method='centWave',ppm=3, peakwidth=c(2,20),
-              polarity="positive", snthresh=3, integrate=2, mzdiff=-1.0000)
+              polarity="positive", snthresh=3, integrate=2, mzdiff=-1.0000) 
 #change data2_pos to data3_pos for QC positive mode
 #change snthresh=10 for sn10 dataset
   #integrate=2, the descent is done on the real data, 
@@ -37,6 +38,7 @@ pos_xset<-xcmsSet(data2_pos, method='centWave',ppm=3, peakwidth=c(2,20),
     #at a min. of -1 H-atom or -1 isotopic mass; neg value indicates overlap
 pos_xset<-group(pos_xset,method="density",bw=3,mzwid=0.015,minfrac=0.5)
 pos_xset1<-retcor(pos_xset,family="s",plottype="m",missing=1,smooth="linear")
+#family = "s" for symmetric and "g" for gaussian
 pos_xset2<-group(pos_xset1,method="density",bw=1.5,mzwid=0.015,minfrac=0.2)
 #minfrac at 0.2 will give the max of 12 out of 60 samples for a peak to become valid peaks
 pos_xset3<-fillPeaks(pos_xset2, method="chrom",expand.mz=1, expand.rt=1)
