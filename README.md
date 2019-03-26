@@ -14,14 +14,14 @@ mineRva is a tool created in R-languange to extract metabolite ions with a parti
 ## Instructions
 1. Download the minervaTools.R source code by cloning your own copy of the source repository with the commands:
 
-   $> git clone https://github.com/brostandy/mineRva.git
+   $> git clone https://github.com/brostandy/mineRva.git<br/>
    $> cd mineRva
 
 2. Usage, in R console, type:
    > source(minervaTools.R)
 
 ## mineRva Requirement Credits
-mineRva tool consisted other R packages
+mineRva tool consisted other R packages:
 
 R Core Team (2018). R: A language and environment for statistical computing. R Foundation for
   Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
