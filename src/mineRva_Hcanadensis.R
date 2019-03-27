@@ -1,7 +1,7 @@
 #How to use mineRva functions
 
 setwd("C:/Users/bty/OneDrive - UNCG/GitHub/mineRva")
-source(minervaTools.R)
+source("mineRva/minervaTools.R")
 
 #data<-read.csv("data/180517_Sample_pos_neg_sn3.csv",check.names="FALSE")
 data<-read.csv("data/180517_Sample_pos_neg_sn10.csv",check.names="FALSE")
