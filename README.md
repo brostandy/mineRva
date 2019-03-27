@@ -18,7 +18,7 @@ mineRva is a tool created in R-languange to extract metabolite ions with a parti
    $> cd mineRva
 
 2. Usage, in R console, type:
-   > source(minervaTools.R)
+   > source("minervaTools.R")
 
 ## mineRva Requirement Credits
 mineRva tool consists of other R packages:
