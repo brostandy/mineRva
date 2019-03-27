@@ -218,45 +218,45 @@ Therefore,
 ion_heatmap<-ionHeatmap(extract_ions,relate_ions)
 ```
 
-![](Figs/unnamed-chunk-3-1.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-1.png)
 
 ``` r
 extracted_ion_plots<-ionxPlot(xm1=x_method1,inx=extract_ions,sgrp=sample_group)
 ```
 
-![](Figs/unnamed-chunk-3-2.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-2.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-3.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-3.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-4.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-4.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-5.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-5.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-6.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-6.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-7.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-7.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-8.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-8.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-9.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-9.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-10.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-10.png)
 
     ## Press [enter] to continue
 
@@ -264,82 +264,82 @@ extracted_ion_plots<-ionxPlot(xm1=x_method1,inx=extract_ions,sgrp=sample_group)
 related_ion_plots<-ionrPlot(xm2=x_method2,inr=relate_ions,sgrp=sample_group,frac=0.2) 
 ```
 
-![](Figs/unnamed-chunk-3-11.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-11.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-12.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-12.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-13.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-13.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-14.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-14.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-15.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-15.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-16.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-16.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-17.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-17.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-18.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-18.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-19.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-19.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-20.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-20.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-21.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-21.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-22.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-22.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-23.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-23.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-24.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-24.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-25.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-25.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-26.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-26.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-27.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-27.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-28.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-28.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-29.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-29.png)
 
     ## Press [enter] to continue
 
-![](Figs/unnamed-chunk-3-30.png)
+![](mineRva_Tools_Workflow/unnamed-chunk-3-30.png)
 
     ## Press [enter] to continue
