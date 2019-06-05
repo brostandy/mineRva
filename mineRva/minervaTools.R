@@ -7,6 +7,11 @@
 #TBD
 #TBD
 
+#Additional citation for mineRva requirements:
+citation(package="glmnet")
+citation(package="RColorBrewer")
+citation(package="gplots")
+
 #group X into sample groups (if applicable)
 #INPUT: x=data, groupnames=5 groups and 1 blank, blank is always indicated first 
 #OUTPUT: samples in the groups, and number of sample in the groups
@@ -97,8 +102,8 @@ xM2<-function(x,sgrp){
 msr<-function(xm1,sgrp){ 
   mean=sd=rsd=list()
   for (k in 2:length(sgrp[[1]])){
-    mean[[k]]<-apply(xm[,sgrp[[1]][[k]]],1,mean)
-    sd[[k]]<-apply(xm[,sgrp[[1]][[k]]],1,sd)
+    mean[[k]]<-apply(xm1[,sgrp[[1]][[k]]],1,mean)
+    sd[[k]]<-apply(xm1[,sgrp[[1]][[k]]],1,sd)
     rsd[[k]]<-sd[[k]]/mean[[k]]
   }
   return(list(mean,sd,rsd))
