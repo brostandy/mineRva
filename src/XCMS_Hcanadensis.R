@@ -62,10 +62,10 @@ neg_xsann<-annotateDiffreport(neg_xset3,sigma=3,perfwhm=0.5,
                           cor_eic_th=0.75, polarity="negative", 
                           quick=FALSE, sortpval=FALSE)
 
-#Create .csv report for XCMS object (Optional)
-xset4_data2<-write.csv(c(pos_xsann, neg_xsann),file="filename.csv") #change filename accordingly
-xset4_data3<-write.csv(c(pos_xsann,neg_xsann),file="filename.csv") #change filename accordingly
-#Other way to create .csv report for XCMS object (Alternative)
-xset4<-diffreport(xset3, filebase="filename") #create report with stats but without annotation from CAMERA
-xset4<-peakTable(xset3, filebase="filename") #create only peaktable, no stats and no annotation
+#Create .csv report for xsAnnotate object (pos_xsann and neg_xsann) separately
+xset4_data2<-write.csv(object_xsann,file="filename.csv") #change filename accordingly
+xset4_data3<-write.csv(object_xsann,file="filename.csv") #change filename accordingly
+#Other way to create .csv report for XCMS object (pos_xset3 and neg_xset3) separately
+xset4<-diffreport(object_xset3, filebase="filename") #create report with stats but without annotation from CAMERA
+xset4<-peakTable(object_xset3, filebase="filename") #create only peaktable, no stats and no annotation
 
