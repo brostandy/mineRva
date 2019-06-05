@@ -38,5 +38,8 @@ Gregory R. Warnes, Ben Bolker, Lodewijk Bonebakker, Robert Gentleman, Wolfgang H
 Erich Neuwirth (2014). RColorBrewer: ColorBrewer Palettes. R package version 1.1-2.
   https://CRAN.R-project.org/package=RColorBrewer
   
+## Licenses
+The content of this project itself is licensed under [Creative Commons Attribution-ShareAlike 4.0 International Public License] (https://creativecommons.org/licenses/by-sa/4.0/legalcode) and the underlying source code used to format and display the content is licensed under the [GNU General Public License v3.0](../blob/master/LICENSE).
+  
 
 
