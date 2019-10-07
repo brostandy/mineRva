@@ -4,8 +4,9 @@
 #
 #citation
 #If you are use and/or modify this tool for research publication, please cite:
-#TBD
-#TBD
+#Article Title: Botanical metabolite ions extraction from full electrospray ionization mass spectrometry using high-dimensional penalized regression
+#Rostandy, B. & Gao, X. Metabolomics (2019) 15: 136. https://doi.org/10.1007/s11306-019-1603-5
+
 
 #Additional citation for mineRva requirements:
 citation(package="glmnet")
